@@ -1,0 +1,14 @@
+<div class="container" align="center">
+<table border="1"  style="text-align:center">
+    <tr>
+        <td>Codigo</td>
+        <td>Descripcion</td>
+        <td>Precio</td>
+    </tr>
+    <tr *ngFor="let prod of datos">
+        <td>{{prod.codigo}}</td>
+        <td>{{prod.descripcion}}</td>
+        <td>{{prod.precio}}</td>
+    </tr>
+</table>
+</div>
